@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  /* Soft off-white for body background */
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40;
+  /* Dark classy background */
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  /* Brand name in white */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #f8c45c;
+  /* Golden hover effect */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  /* Light toggler icon */
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.nav-link {
+  color: #f8f9fa;
+  /* Light text for nav links */
+  margin-right: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f8c45c;
+  /* Golden hover effect */
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #f8c45c;
+  /* Highlight the active link */
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-bottom: 0.5rem;
+  }
+}
